@@ -1,143 +1,17 @@
-<footer id="SITE_FOOTER" class="xU8fqS SITE_FOOTER wixui-footer" tabindex="-1">
-  <div class="_C0cVf">
-    <div class="_4XcTfy" data-testid="screenWidthContainerBg"></div>
+<section id="comp-ljmwc368" tabindex="-1" class="Oqnisf comp-ljmwc368 wixui-section"
+  data-block-level-container="ClassicSection">
+  <div id="bgLayers_comp-ljmwc368" data-hook="bgLayers" data-motion-part="BG_LAYER comp-ljmwc368" class="MW5IWV">
+    <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
+    <div id="bgMedia_comp-ljmwc368" data-motion-part="BG_MEDIA comp-ljmwc368" class="VgO9Yg"></div>
   </div>
-  <div class="U4Bvut">
-    <div class="G5K6X8">
-      <div class="gUbusX" data-testid="screenWidthContainerBgCenter"></div>
-    </div>
-    <div class="CJF7A2">
-      <div data-mesh-id="SITE_FOOTERinlineContent" data-testid="inline-content" class="">
-        <div data-mesh-id="SITE_FOOTERinlineContent-gridContainer" data-testid="mesh-container-content">
-          <div id="comp-ljr02ec9" class="MazNVa comp-ljr02ec9 wixui-image rYiAuL" title="Asian LOGO Full png.png"><a
-              data-testid="linkElement" href="https://www.asianextrusions.com" target="_self" class="j7pOnl"><wow-image
-                id="img_comp-ljr02ec9" class="jhxvbR BI8PVQ"
-                data-image-info="{&quot;containerId&quot;:&quot;comp-ljr02ec9&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:279,&quot;targetHeight&quot;:108,&quot;isLQIP&quot;:true,&quot;encoding&quot;:&quot;AVIF&quot;,&quot;imageData&quot;:{&quot;width&quot;:7134,&quot;height&quot;:2762,&quot;uri&quot;:&quot;4dcc32_3ba6e4c7abf3461fbf556f0703ee1683~mv2.png&quot;,&quot;name&quot;:&quot;Asian LOGO Full png (1).png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
-                data-motion-part="BG_IMG comp-ljr02ec9" data-bg-effect-name="" data-has-ssr-src=""><img
-                  src="https://static.wixstatic.com/media/4dcc32_3ba6e4c7abf3461fbf556f0703ee1683~mv2.png/v1/fill/w_558,h_216,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Asian%20LOGO%20Full%20png%20(1).png"
-                  alt="Asian Extrusions.png"
-                  style="width: 279px; height: 108px; object-fit: cover; object-position: 50% 50%;" width="279"
-                  height="108" loading="lazy" data-ssr-src-done="true" fetchpriority="high"></wow-image></a></div>
-          <div id="comp-ljr02edm" class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ljr02edm wixui-rich-text"
-            data-testid="richTextElement">
-            <p class="font_9 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
-                class="wixui-rich-text__text"><span
-                  style="font-family:wfont_3f090f_fbe2048d9f994d8c8d5073ed8164a33e,wf_fbe2048d9f994d8c8d5073ed8,orig_poppins_medium;"
-                  class="wixui-rich-text__text"><span class="color_36 wixui-rich-text__text">Asian Extrusion provides
-                    premium materials with advanced machines and technology, ensuring the product strictly holds
-                    high-quality standards.</span></span></span></p>
+  <div data-mesh-id="comp-ljmwc368inlineContent" data-testid="inline-content" class="">
+    <div data-mesh-id="comp-ljmwc368inlineContent-gridContainer" data-testid="mesh-container-content">
+      <div id="comp-ljmwc36a2" class="c36GfP comp-ljmwc36a2 wixui-google-map"><wix-iframe data-src="">
+          <div id="mapContainer_comp-ljmwc36a2" class="gwyB6z"><iframe title="Google Maps" aria-label="Google Maps"
+              data-src="" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen=""
+              src="https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/media/googleMap.ea5928de.html?defaultLocation=0&amp;language=en&amp;id=dataItem-ljmwc36f&amp;googleMapsScriptPath=%2Fservices%2Feditor-elements-library%2Fdist%2Fthunderbolt%2Fmedia%2Fgoogle-map.min.08346697.js&amp;origin=https%3A%2F%2Fwww.asianextrusions.com"></iframe>
           </div>
-          <div id="comp-ljxtodo1" class="comp-ljxtodo1 SPY_vo">
-            <div data-mesh-id="comp-ljxtodo1inlineContent" data-testid="inline-content" class="">
-              <div data-mesh-id="comp-ljxtodo1inlineContent-gridContainer" data-testid="mesh-container-content">
-                <div id="comp-ljr02elp" class="uag7ua comp-ljr02elp">
-                  <div class="HA_OJI wixui-vertical-line"></div>
-                </div>
-                <div id="comp-ljr02elq" class="uag7ua comp-ljr02elq">
-                  <div class="HA_OJI wixui-vertical-line"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="comp-ljxtq774" class="comp-ljxtq774 SPY_vo">
-            <div data-mesh-id="comp-ljxtq774inlineContent" data-testid="inline-content" class="">
-              <div data-mesh-id="comp-ljxtq774inlineContent-gridContainer" data-testid="mesh-container-content">
-                <div id="comp-ljr02eiv" class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ljr02eiv wixui-rich-text"
-                  data-testid="richTextElement">
-                  <h6 class="font_6 wixui-rich-text__text" style="font-size:18px;"><a
-                      href="https://www.asianextrusions.com" target="_self" class="wixui-rich-text__text"><span
-                        style="font-size:18px;" class="wixui-rich-text__text"><span
-                          class="color_43 wixui-rich-text__text"><span
-                            style="font-family:wfont_3f090f_d2b74fa2704044fa98373433c883f8ed,wf_d2b74fa2704044fa98373433c,orig_poppins_regular;"
-                            class="wixui-rich-text__text">Home</span></span></span></a></h6>
-                </div>
-                <div id="comp-ljr02eix" class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ljr02eix wixui-rich-text"
-                  data-testid="richTextElement">
-                  <h6 class="font_6 wixui-rich-text__text" style="font-size:18px;"><a
-                      href="https://www.asianextrusions.com/about" target="_self" class="wixui-rich-text__text"><span
-                        style="font-size:18px;" class="wixui-rich-text__text"><span
-                          class="color_43 wixui-rich-text__text"><span
-                            style="font-family:wfont_3f090f_d2b74fa2704044fa98373433c883f8ed,wf_d2b74fa2704044fa98373433c,orig_poppins_regular;"
-                            class="wixui-rich-text__text">About</span></span></span><span style="font-size:18px;"
-                        class="wixui-rich-text__text"><span class="color_43 wixui-rich-text__text"><span
-                            style="font-family:wfont_3f090f_d2b74fa2704044fa98373433c883f8ed,wf_d2b74fa2704044fa98373433c,orig_poppins_regular;"
-                            class="wixui-rich-text__text"> Us</span></span></span></a></h6>
-                </div>
-                <div id="comp-ljr02eiz1" class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ljr02eiz1 wixui-rich-text"
-                  data-testid="richTextElement">
-                  <h6 class="font_6 wixui-rich-text__text" style="font-size:18px;"><a
-                      href="https://www.asianextrusions.com/products" target="_self" class="wixui-rich-text__text"><span
-                        style="font-size:18px;" class="wixui-rich-text__text"><span
-                          class="color_43 wixui-rich-text__text"><span
-                            style="font-family:wfont_3f090f_d2b74fa2704044fa98373433c883f8ed,wf_d2b74fa2704044fa98373433c,orig_poppins_regular;"
-                            class="wixui-rich-text__text">Product</span></span></span></a></h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="comp-ljxtq9dy" class="comp-ljxtq9dy SPY_vo">
-            <div data-mesh-id="comp-ljxtq9dyinlineContent" data-testid="inline-content" class="">
-              <div data-mesh-id="comp-ljxtq9dyinlineContent-gridContainer" data-testid="mesh-container-content">
-                <div id="comp-ljr02emq" class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ljr02emq wixui-rich-text"
-                  data-testid="richTextElement">
-                  <h6 class="font_6 wixui-rich-text__text" style="font-size:18px;"><a
-                      href="https://www.asianextrusions.com/privacy-policy" target="_self"
-                      class="wixui-rich-text__text"><span
-                        style="font-family:wfont_3f090f_d2b74fa2704044fa98373433c883f8ed,wf_d2b74fa2704044fa98373433c,orig_poppins_regular;"
-                        class="wixui-rich-text__text"><span style="font-size:18px;" class="wixui-rich-text__text"><span
-                            class="color_43 wixui-rich-text__text">Privacy Policy</span></span></span></a></h6>
-                </div>
-                <div id="comp-ljr02emr3" class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ljr02emr3 wixui-rich-text"
-                  data-testid="richTextElement">
-                  <h6 class="font_6 wixui-rich-text__text" style="font-size:18px;"><a
-                      href="https://www.asianextrusions.com/terms-and-conditions" target="_self"
-                      class="wixui-rich-text__text"><span
-                        style="font-family:wfont_3f090f_d2b74fa2704044fa98373433c883f8ed,wf_d2b74fa2704044fa98373433c,orig_poppins_regular;"
-                        class="wixui-rich-text__text"><span style="font-size:18px;" class="wixui-rich-text__text"><span
-                            class="color_43 wixui-rich-text__text">Terms &amp; Conditions</span></span></span></a></h6>
-                </div>
-                <div id="comp-ljr02emt1" class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ljr02emt1 wixui-rich-text"
-                  data-testid="richTextElement">
-                  <h6 class="font_6 wixui-rich-text__text" style="font-size:18px;"><a
-                      href="https://www.asianextrusions.com/contact" target="_self" class="wixui-rich-text__text"><span
-                        style="font-family:wfont_3f090f_d2b74fa2704044fa98373433c883f8ed,wf_d2b74fa2704044fa98373433c,orig_poppins_regular;"
-                        class="wixui-rich-text__text"><span style="font-size:18px;" class="wixui-rich-text__text"><span
-                            class="color_43 wixui-rich-text__text">Conta</span></span><span style="font-size:18px;"
-                          class="wixui-rich-text__text"><span class="color_43 wixui-rich-text__text">ct
-                            Us</span></span></span></a></h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="comp-ljr08tb0" class="MazNVa comp-ljr08tb0 wixui-image">
-            <div data-testid="linkElement" class="j7pOnl"><wow-image id="img_comp-ljr08tb0" class="jhxvbR BI8PVQ"
-                data-image-info="{&quot;containerId&quot;:&quot;comp-ljr08tb0&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:232,&quot;targetHeight&quot;:115,&quot;isLQIP&quot;:true,&quot;encoding&quot;:&quot;AVIF&quot;,&quot;imageData&quot;:{&quot;width&quot;:872,&quot;height&quot;:435,&quot;uri&quot;:&quot;4dcc32_b8259d29e452449fbe53a49c2ec9e797~mv2.png&quot;,&quot;name&quot;:&quot;ISO 9001 UKAS Certification Logo.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
-                data-motion-part="BG_IMG comp-ljr08tb0" data-bg-effect-name="" data-has-ssr-src=""><img
-                  src="https://static.wixstatic.com/media/4dcc32_b8259d29e452449fbe53a49c2ec9e797~mv2.png/v1/fill/w_464,h_230,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ISO%209001%20UKAS%20Certification%20Logo.png"
-                  alt="ISO 9001 UKAS Certification Logo.png"
-                  style="width: 232px; height: 115px; object-fit: cover; object-position: 50% 50%;" width="232"
-                  height="115" loading="lazy" data-ssr-src-done="true" fetchpriority="high"></wow-image></div>
-          </div>
-          <div id="comp-ljr02eao" class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ljr02eao wixui-rich-text"
-            data-testid="richTextElement">
-            <p class="font_9 wixui-rich-text__text" style="font-size:12px;"><span style="font-size:12px;"
-                class="wixui-rich-text__text"><span class="color_43 wixui-rich-text__text"><span
-                    style="font-family:wfont_3f090f_d2b74fa2704044fa98373433c883f8ed,wf_d2b74fa2704044fa98373433c,orig_poppins_regular;"
-                    class="wixui-rich-text__text">©2023 by <span style="font-weight:bold;"
-                      class="wixui-rich-text__text"><a href="https://www.asianextrusions.com" target="_self"
-                        class="wixui-rich-text__text">Asian Extrusions</a>.&nbsp;</span></span></span></span></p>
-          </div>
-          <div id="comp-ljr02ehr" class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ljr02ehr wixui-rich-text"
-            data-testid="richTextElement">
-            <p class="font_9 wixui-rich-text__text" style="font-size:12px;"><span style="font-size:12px;"
-                class="wixui-rich-text__text"><span class="color_43 wixui-rich-text__text"><span
-                    style="font-family:wfont_3f090f_d2b74fa2704044fa98373433c883f8ed,wf_d2b74fa2704044fa98373433c,orig_poppins_regular;"
-                    class="wixui-rich-text__text">Created by&nbsp;<a href="https://webseeder.in/" target="_blank"
-                      rel="noreferrer noopener" class="wixui-rich-text__text"><span style="font-weight:bold;"
-                        class="wixui-rich-text__text">Webseeder Technologies.</span></a></span></span></span></p>
-          </div>
-        </div>
-      </div>
+        </wix-iframe></div>
     </div>
   </div>
-</footer>
+</section>

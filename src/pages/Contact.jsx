@@ -1,12 +1,20 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer.jsx';
+import Inquiry from '../Contact/Inquiry.jsx';
+import ContactForm from '../Contact/ContactForm.jsx';
+import ContactCards from '../Contact/ContactCards.jsx';
+import LocationMap from '../Contact/GoogleMaps.jsx';
 
 export default function Contact() {
   return (
     <>
       <Navbar />
-      <div className='mt-50 ml-50'>Contact</div>
+      <Inquiry />
+      <ContactForm />
+      <ContactCards />
+      <LocationMap />
+      <Footer />
     </>
   )
 }
