@@ -6,6 +6,9 @@ import FullStory from '../About/FullStory.jsx';
 import MissionVision from '../About/MissionVision.jsx';
 import CommitmentsSection from '../About/CommitmentsSection.jsx';
 import ExtrudedSection from '../About/ExtrudedSection.jsx';
+import CastHouse from '../About/CastHouse.jsx';
+import ProductionFacility from '../About/ProductionFacility.jsx';
+import ClientShowcase from '../About/ClientShowcase.jsx';
 export default function About() {
   return (
     <>
@@ -15,7 +18,10 @@ export default function About() {
       <MissionVision />
       <CommitmentsSection />
       <ExtrudedSection />
-
+      <CastHouse />
+      <ProductionFacility />
+      <ClientShowcase />
+      <Footer />
     </>
   )
 }
