@@ -8,7 +8,7 @@ export default function Industry() {
 
           {/* Left Image */}
           <div className="w-full md:w-1/2 relative mr-auto h-[350px]">
-            <img src="/industry-image.jpg" alt="Industry Sector" className="w-full h-full object-cover rounded-md" />
+            <img src="/Home/industry-image.jpg" alt="Industry Sector" className="w-full h-full object-cover rounded-md" />
           </div>
 
           {/* Right Content */}

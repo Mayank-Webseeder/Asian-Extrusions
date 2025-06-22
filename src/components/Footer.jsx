@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Column 1: Logo + Description */}
           <div className="w-1/3 space-y-6">
             <img
-              src="/logo.avif"
+              src="/Home/logo.avif"
               alt="Logo"
               className="w-36 h-auto bg-amber-50"
             />
@@ -46,7 +46,7 @@ export default function Footer() {
           <div className="md:w-1/4 space-y-4 flex flex-col items-center md:items-start">
             <div className="flex gap-4">
               <img
-                src="/company.avif"
+                src="/Home/company.avif"
                 alt="URS"
                 className="w-40 h-auto object-contain"
               />

@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function Home1() {
+export default function Discription() {
   return (
     <section className="w-full flex flex-col md:flex-row h-[550px]">
       {/* Left Image */}
       <div className="md:w-1/2 w-full">
         <img
-          src="/home1.avif" // Yahan tum apna image laga lena
+          src="/Home/home1.avif" // Yahan tum apna image laga lena
           alt="Aluminium"
           className="w-full h-full object-cover"
         />
