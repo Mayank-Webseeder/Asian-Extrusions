@@ -2,25 +2,25 @@ import React from 'react';
 
 export default function EnvironmentHealthSafety() {
   return (
-    <section className="min-h-screen bg-gray-100 px-4 md:px-10 py-16">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-stretch gap-12 h-full">
+    <section className="min-h-screen bg-gray-100">
+      <div className="max-w-7xl  flex flex-col lg:flex-row items-stretch gap-12 h-full">
 
         {/* Left Side - Full Cover Image */}
-        <div className="w-full lg:w-1/2 h-[300px] lg:h-auto">
+        <div className="w-full lg:w-1/2 h-[400px] lg:h-auto">
           <img
             src="/Home/environment.avif"
             alt="Hand protecting environment"
-            className="w-full h-full object-cover rounded-md lg:rounded-none"
+            className="w-full h-full object-fill rounded-md lg:rounded-none"
           />
         </div>
 
         {/* Right Side - Content */}
-        <div className="w-full lg:w-1/2 flex flex-col justify-center space-y-6 text-center lg:text-left">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0A4C91] leading-tight">
+        <div className="w-full lg:w-1/2 flex flex-col justify-center space-y-6 text-center lg:text-left px-4">
+          <h1 className="text-3xl   font-bold text-[#0A4C91] leading-9">
             Environment Health and Safety Management
           </h1>
 
-          <div className="space-y-4 text-[#05468D] text-base sm:text-lg">
+          <div className="space-y-4 text-[#05468D] text-xl">
             <p className="leading-relaxed">
               AEPL is a reputed manufacturer of Aluminium extruded sections in South India.
               AEPL addresses all related environmental issues and concerns along with safe

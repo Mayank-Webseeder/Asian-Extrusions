@@ -9,6 +9,8 @@ import ExtrudedSection from '../About/ExtrudedSection.jsx';
 import CastHouse from '../About/CastHouse.jsx';
 import ProductionFacility from '../About/ProductionFacility.jsx';
 import ClientShowcase from '../About/ClientShowcase.jsx';
+import MobileBottomNav from '../components/MobileBottomNav';
+
 export default function About() {
   return (
     <>
@@ -22,6 +24,7 @@ export default function About() {
       <ProductionFacility />
       <ClientShowcase />
       <Footer />
+      <MobileBottomNav />
     </>
   )
 }

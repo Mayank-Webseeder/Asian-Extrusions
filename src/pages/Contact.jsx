@@ -5,6 +5,8 @@ import Inquiry from '../Contact/Inquiry.jsx';
 import ContactForm from '../Contact/ContactForm.jsx';
 import ContactCards from '../Contact/ContactCards.jsx';
 import LocationMap from '../Contact/GoogleMaps.jsx';
+import MobileBottomNav from '../components/MobileBottomNav';
+
 
 export default function Contact() {
   return (
@@ -15,6 +17,7 @@ export default function Contact() {
       <ContactCards />
       <LocationMap />
       <Footer />
+      <MobileBottomNav />
     </>
   )
 }

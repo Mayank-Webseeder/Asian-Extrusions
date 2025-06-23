@@ -2,14 +2,21 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="relative w-full h-screen overflow-hidden mt-15">
-      {/* Background Video */}
+    <section className="relative w-full h-screen overflow-hidden mt-[111px]">
+      {/* ✅ Static Image for Mobile & Laptop */}
+      <img
+        src="/Home/hero.avif" // 🔁 Replace with your actual image path
+        alt="Background"
+        className="block xl:hidden absolute top-0 left-0 w-full h-full object-cover z-0"
+      />
+
+      {/* ✅ Background Video for Desktop only */}
       <video
         autoPlay
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="hidden xl:block absolute top-0 left-0 w-full h-full object-cover z-0"
       >
         <source
           src="https://video.wixstatic.com/video/4dcc32_bf77ac12fd5a41f08655514754330cef/1080p/mp4/file.mp4"
@@ -18,28 +25,28 @@ function Hero() {
         Your browser does not support the video tag.
       </video>
 
-      {/* 🎯 Diagonal lines ONLY over the video */}
-      <div className="absolute  inset-0 z-0 bg-[repeating-linear-gradient(135deg,rgba(0,0,0,0.15)_0px,rgba(0,0,0,0.15)_2px,transparent_2px,transparent_6px)]" />
+      {/* 🎯 Diagonal Overlay */}
+      <div className="absolute inset-0 z-0 bg-[repeating-linear-gradient(135deg,rgba(0,0,0,0.15)_0px,rgba(0,0,0,0.15)_2px,transparent_2px,transparent_6px)]" />
 
-      {/* Left Overlay */}
-      <div className="absolute left-0 top-0 h-full w-[35%] bg-[#0a4c91]/60 z-10"></div>
+      {/* Blue Overlay (full width on mobile/laptop, left only on desktop) */}
+      <div className="absolute top-0 left-0 h-full w-full xl:w-[35%] bg-[#0a4c91]/60 z-10"></div>
 
       {/* Left Content */}
-      <div className="relative z-20 flex items-center justify-start h-full px-6 md:px-20 w-[35%]">
-        <div className="max-w-2xl text-white space-y-6">
-          <h1 className="text-xl md:text-5xl font-bold leading-tight space-x-1">
-            Building a Brighter <br />
-            Today And Tomorrow!
+      <div className="relative z-20 flex items-center justify-center xl:justify-start h-full px-6 md:px-20 w-full xl:w-[35%]">
+        <div className="max-w-2xl text-white space-y-6 text-left">
+          <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold leading-tight">
+            Building a<br /> Brighter
+            Today<br /> And Tomorrow!
           </h1>
-          <p className="text-lg md:text-xl font-light">
+          <p className="text-xl xl:text-xl font-light">
             Asian Extrusions Pvt. Ltd<br />
             “QUALITY IS INHERENT”
           </p>
         </div>
       </div>
 
-      {/* Right Box Content */}
-      <div className="absolute right-20 top-20 z-20 w-[300px] border border-white bg-white/0  text-white rounded-md overflow-hidden">
+      {/* ❌ Right Box - only on xl+ */}
+      <div className="hidden xl:block absolute right-20 top-20 z-20 w-[300px] border border-white bg-white/0 text-white rounded-md overflow-hidden">
         {/* Top Row */}
         <div className="grid grid-cols-2 border-b border-white text-xl font-semibold">
           <div className="px-4 py-2 border-r border-white text-left">21 Jun 2025</div>
@@ -64,6 +71,7 @@ function Hero() {
         </div>
       </div>
     </section>
+
   );
 }
 
