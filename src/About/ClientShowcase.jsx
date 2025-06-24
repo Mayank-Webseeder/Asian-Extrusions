@@ -3,25 +3,19 @@ import React, { useState, useEffect } from 'react';
 export default function ClientShowcase() {
   const clients = [
     {
-
-      logo: "https://static.parastorage.com/services/editor-elements-library/dist/siteAssets/media/arrow-left.8dc41b29.png"
+      logo: "/About/client.png"
     },
     {
-      name: "TechCorp",
-      logo: "https://static.parastorage.com/services/editor-elements-library/dist/siteAssets/media/arrow-right.970da51a.png"
-
+      logo: "/About/client.avif"
     },
     {
-      name: "InnovateLab",
-      logo: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=200&h=80&fit=crop&crop=center"
+      logo: "/About/client1.png"
     },
     {
-      name: "FutureTech",
-      logo: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=200&h=80&fit=crop&crop=center"
+      logo: "/About/client2.avif"
     },
     {
-      name: "DigiSoft",
-      logo: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=200&h=80&fit=crop&crop=center"
+      logo: "/About/client3.png"
     }
   ];
 
@@ -63,11 +57,8 @@ export default function ClientShowcase() {
                 <img
                   src={clients[currentIndex].logo}
                   alt={`${clients[currentIndex].name} logo`}
-                  className="max-w-xs max-h-32 object-contain mb-4 filter drop-shadow-lg"
+                  className="max-w-full h-full object-contain"
                 />
-                <h3 className="text-2xl font-semibold text-gray-700">
-                  {clients[currentIndex].name}
-                </h3>
               </div>
             </div>
           </div>
