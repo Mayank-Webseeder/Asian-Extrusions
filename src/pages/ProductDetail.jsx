@@ -36,7 +36,6 @@ const ProductDetail = () => {
               href={product.link}
               target="_blank"
               rel="noopener noreferrer"
-              {...(isPDF ? { download: true } : {})}
             >
               <FaDownload size={28} className="text-[#0a58aa] hover:text-blue-800" />
             </a>
@@ -63,7 +62,7 @@ const ProductDetail = () => {
             industry.
           </p>
         </div>
-
+        {console.log(product.imageSrc)}
         {/* Image */}
         <div className="flex justify-center mb-6">
           <img
@@ -73,7 +72,7 @@ const ProductDetail = () => {
           />
         </div>
 
-        {/* Prev/Next Buttons */}
+        {/* Prev/Next + Download Button */}
         <div className="mt-10 flex justify-between">
           <button
             onClick={() => goTo(-1)}
@@ -82,21 +81,25 @@ const ProductDetail = () => {
           >
             Previous
           </button>
+
           <a
-            href={`${import.meta.env.VITE_PUBLIC_URL}${product.link}`}
-            download
+            href={product.link}
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-12 py-2 bg-[#0A4C91] text-white rounded inline-block"
           >
             Download
           </a>
+
           <button
             onClick={() => goTo(1)}
-            className="px-4 py-2 text-blue-600  text-xl disabled:opacity-50"
+            className="px-4 py-2 text-blue-600 text-xl disabled:opacity-50"
             disabled={productIndex === products.length - 1}
           >
             Next
           </button>
         </div>
+
       </div>
     </>
   )
