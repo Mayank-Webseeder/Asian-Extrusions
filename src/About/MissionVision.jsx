@@ -27,7 +27,7 @@ const MissionVision = () => {
         {/* Background image */}
         <div className="absolute inset-0 bg-[url('/About/about8.avif')] bg-cover bg-center" />
         {/* White overlay */}
-        <div className="absolute inset-0 bg-white bg-opacity-80" />
+        <div className="absolute inset-0 bg-gray-100/85 bg-opacity-80" />
 
         {/* Content */}
         <div className=" block relative z-10 p-10 md:p-20 max-w-md mx-auto text-center space-y-6">
