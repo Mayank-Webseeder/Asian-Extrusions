@@ -6,7 +6,7 @@ import ContactForm from '../Contact/ContactForm.jsx';
 import ContactCards from '../Contact/ContactCards.jsx';
 import LocationMap from '../Contact/GoogleMaps.jsx';
 import MobileBottomNav from '../components/MobileBottomNav';
-
+import ScrollToTopButton from '../components/ScrollToTopButton';
 
 export default function Contact() {
   return (
@@ -18,6 +18,7 @@ export default function Contact() {
       <LocationMap />
       <Footer />
       <MobileBottomNav />
+      <ScrollToTopButton />
     </>
   )
 }

@@ -5,7 +5,7 @@ const CommitmentsSection = () => {
     <>
       <div className="w-full flex flex-col lg:flex-row min-h-[550px]">
         {/* Left Image */}
-        <div className="w-full lg:w-1/3">
+        <div className="hidden lg:block w-full lg:w-1/3">
           <img
             src="About/about1.avif"
             alt="Left"
@@ -31,7 +31,7 @@ const CommitmentsSection = () => {
         </div>
 
         {/* Right Image */}
-        <div className="w-full lg:w-1/3">
+        <div className="w-full lg:w-1/3 ">
           <img
             src="About/about2.avif"
             alt="Right"

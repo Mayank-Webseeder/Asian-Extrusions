@@ -10,7 +10,7 @@ import CastHouse from '../About/CastHouse.jsx';
 import ProductionFacility from '../About/ProductionFacility.jsx';
 import ClientShowcase from '../About/ClientShowcase.jsx';
 import MobileBottomNav from '../components/MobileBottomNav';
-
+import ScrollToTopButton from '../components/ScrollToTopButton';
 export default function About() {
   return (
     <>
@@ -25,6 +25,7 @@ export default function About() {
       <ClientShowcase />
       <Footer />
       <MobileBottomNav />
+      <ScrollToTopButton />
     </>
   )
 }

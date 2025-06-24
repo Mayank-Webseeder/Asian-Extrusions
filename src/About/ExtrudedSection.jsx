@@ -1,18 +1,17 @@
 import React from "react";
-// Replace with your actual image path
 
 const ExtrudedSection = () => {
   return (
     <>
       <section className="w-full flex flex-col lg:flex-row min-h-screen">
         {/* Left - Background Image */}
-        <div className="lg:w-1/2 w-full h-[400px] lg:h-auto">
-          <div className="w-full h-full bg-[url('/About/about3.avif')] bg-cover bg-center bg-no-repeat bg-fixed"></div>
+        <div className="lg:w-1/2 w-full h-[300px] lg:h-auto">
+          <div className="w-full h-full bg-[url('/About/about3.avif')] bg-cover bg-center bg-no-repeat bg-scroll lg:bg-fixed" />
         </div>
 
         {/* Right - Text Content */}
         <div className="lg:w-1/2 w-full bg-[#084e8a] text-white p-6 md:p-10 flex items-center">
-          <div className="space-y-6 text-sm md:text-base leading-relaxed">
+          <div className="space-y-6 text-xl md:text-base leading-relaxed">
             <p>
               The registration covers the production, testing, and supply of
               extruded sections, which are used in auto industries, household
@@ -75,6 +74,7 @@ const ExtrudedSection = () => {
           </div>
         </div>
       </section>
+
       <section className="w-full bg-white py-12 px-4 md:px-8">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-[#044f96] mb-8">
@@ -82,7 +82,6 @@ const ExtrudedSection = () => {
           </h2>
         </div>
       </section>
-
     </>
   );
 };

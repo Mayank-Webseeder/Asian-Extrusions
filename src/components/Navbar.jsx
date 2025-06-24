@@ -67,6 +67,8 @@ const Navbar = () => {
           <Link to="/quality" onClick={() => setMenuOpen(false)} className="hover:text-blue-900">Quality</Link>
           <Link to="/products" onClick={() => setMenuOpen(false)} className="hover:text-blue-900">Products</Link>
           <Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-blue-900">Contact</Link>
+          <Link to="/privacy-policy" onClick={() => setMenuOpen(false)} className="hover:text-blue-900">Privacy Policy</Link>
+          <Link to="/terms-and-conditions" onClick={() => setMenuOpen(false)} className="hover:text-blue-900">Terms</Link>
         </div>
       )}
     </>

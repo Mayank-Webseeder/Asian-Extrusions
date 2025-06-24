@@ -30,7 +30,7 @@ const MissionVision = () => {
         <div className="absolute inset-0 bg-white bg-opacity-80" />
 
         {/* Content */}
-        <div className="relative z-10 p-10 md:p-20 max-w-md mx-auto text-center space-y-6">
+        <div className=" block relative z-10 p-10 md:p-20 max-w-md mx-auto text-center space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold">Vision</h2>
           <p className="text-lg leading-relaxed">
             To be a prominent market player with mutually beneficial,
@@ -38,6 +38,7 @@ const MissionVision = () => {
             products and services every time.
           </p>
         </div>
+
       </div>
     </section>
   );

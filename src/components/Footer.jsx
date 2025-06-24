@@ -34,7 +34,7 @@ export default function Footer() {
                 alt="URS"
                 className="w-40 h-auto object-contain"
               />
-              <div className="text-[16px] text-gray-200 mt-4 text-center space-y-2">
+              <div className="text-[16px] text-gray-200 mt-4 text-center space-y-2 mb-20">
                 <p>©2023 by <span className="font-semibold">Asian Extrusions</span>.</p>
                 <p>Created by <span className="text-white font-medium">Webseeder Technologies.</span></p>
               </div>
@@ -79,15 +79,15 @@ export default function Footer() {
             <div className="w-[6px] h-60 bg-[#7CA5C3] rounded-full opacity-70"></div>
 
             {/* Column 3: Certificates & Credit */}
-            <div className="w-1/4 space-y-4 flex flex-col items-start">
+            <div className="w-1/4 space-y-4 flex flex-col items-start ">
               <img
                 src="/Home/company.avif"
                 alt="URS"
                 className="w-40 h-auto object-contain"
               />
-              <div className="text-xs text-gray-200 mt-4 text-left space-y-1">
+              <div className="text-xs text-gray-200 mt-4 text-left space-y-1 ">
                 <p>©2023 by <span className="font-semibold">Asian Extrusions</span>.</p>
-                <p>Created by <span className="text-white font-medium">Webseeder Technologies.</span></p>
+                <p>Created by <span className="text-white font-medium ">Webseeder Technologies.</span></p>
               </div>
             </div>
           </div>

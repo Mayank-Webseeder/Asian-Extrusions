@@ -1,5 +1,6 @@
 import React from 'react';
 import products from "./Data.js";
+import { Link } from 'react-router-dom';
 
 function Products() {
   return (
@@ -9,7 +10,7 @@ function Products() {
           {products.map((product, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col items-center justify-between p-6"
+              className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col items-center justify-between p-6"
             >
               <div className="flex-shrink-0 w-full h-40 flex items-center justify-center p-4">
                 <img
@@ -28,14 +29,11 @@ function Products() {
                 </h2>
               </div>
               <div className="mt-6">
-                <a
-                  href={product.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-6 py-2 border border-transparent text-base font-medium rounded-2xl shadow-sm text-white bg-[#05468D] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-150 ease-in-out"
+                <Link
+                  to={`/product/${product.slug}`}
+                  className="inline-block px-6 py-2 border border-transparent text-base font-medium rounded shadow-sm text-white bg-[#05468D] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-150 ease-in-out"
                 >
-                  Read More
-                </a>
+                  Read More</Link>
               </div>
             </div>
           ))}
