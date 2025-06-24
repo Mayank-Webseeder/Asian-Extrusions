@@ -1,5 +1,5 @@
 // AnimatedRoutes.jsx
-import React from 'react'
+import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
@@ -14,19 +14,77 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 import PageWrapper from "./components/PageWrapper";
 
 export default function AnimatedRoutes() {
-  const location = useLocation();          // current path
+  const location = useLocation();
 
   return (
-    <AnimatePresence mode="wait">          {/* fade-out → fade-in */}
+    <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<PageWrapper><Home /></PageWrapper>} />
-        <Route path="/about" element={<PageWrapper><About /></PageWrapper>} />
-        <Route path="/quality" element={<PageWrapper><Quality /></PageWrapper>} />
-        <Route path="/products" element={<PageWrapper><Product /></PageWrapper>} />
-        <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
-        <Route path="/product/:slug" element={<PageWrapper><ProductDetail /></PageWrapper>} />
-        <Route path="/privacy-policy" element={<PageWrapper><PrivacyPolicy /></PageWrapper>} />
-        <Route path="/terms-and-conditions" element={<PageWrapper><TermsAndConditions /></PageWrapper>} />
+        <Route
+          path="/"
+          element={
+            <PageWrapper title="Premium Aluminum Extrusion | Asian Extrusions">
+              <Home />
+            </PageWrapper>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <PageWrapper title="About | Asian Extrusions">
+              <About />
+            </PageWrapper>
+          }
+        />
+        <Route
+          path="/quality"
+          element={
+            <PageWrapper title="Quality | Asian Extrusions">
+              <Quality />
+            </PageWrapper>
+          }
+        />
+        <Route
+          path="/products"
+          element={
+            <PageWrapper title="Products | Asian Extrusions">
+              <Product />
+            </PageWrapper>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <PageWrapper title="Contact | Asian Extrusions">
+              <Contact />
+            </PageWrapper>
+          }
+        />
+        <Route
+          path="/product/:slug"
+          element={
+            <PageWrapper
+              getTitle={({ slug }) => `${slug.toUpperCase()} | Asian Extrusions`}
+            >
+              <ProductDetail />
+            </PageWrapper>
+          }
+        />
+        <Route
+          path="/privacy-policy"
+          element={
+            <PageWrapper title="Privacy Policy | Asian Extrusions">
+              <PrivacyPolicy />
+            </PageWrapper>
+          }
+        />
+        <Route
+          path="/terms-and-conditions"
+          element={
+            <PageWrapper title="Terms & Conditions | Asian Extrusions">
+              <TermsAndConditions />
+            </PageWrapper>
+          }
+        />
       </Routes>
     </AnimatePresence>
   );
