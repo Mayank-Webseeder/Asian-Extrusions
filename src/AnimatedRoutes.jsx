@@ -22,7 +22,7 @@ export default function AnimatedRoutes() {
         <Route
           path="/"
           element={
-            <PageWrapper title="Premium Aluminum Extrusion | Asian Extrusions">
+            <PageWrapper title="Premium Aluminum Extruted | Asian Extrusions">
               <Home />
             </PageWrapper>
           }
