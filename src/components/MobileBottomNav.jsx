@@ -15,17 +15,14 @@ export default function MobileBottomNav() {
 
       {/* Gmail */}
       <a
-        href="pankaj@asianextrusions.com"
+        href="mailto:pankaj@asianextrusions.com"
         className="flex flex-col items-center text-[#05468D]"
       >
-        <FaEnvelope size={25} className='text-rose-700' />
+        <FaEnvelope size={25} className="text-rose-700" />
       </a>
-
       {/* LinkedIn */}
       <a
         href="https://www.linkedin.com/company/asianextrusions/"
-        target="_blank"
-        rel="noopener noreferrer"
         className="flex flex-col items-center text-[#05468D]"
       >
         <FaLinkedinIn size={25} className='text-blue-600' />

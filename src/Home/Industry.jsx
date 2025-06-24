@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Industry() {
   return (
@@ -26,9 +27,11 @@ export default function Industry() {
               and hardware and furniture makers. The sections are supplied in aluminum alloys in
               accordance with applicable Indian and International Standards.
             </p>
-            <button className="bg-[#004c91] text-lg xl:text-xl text-white font-semibold py-2 px-6 rounded hover:bg-[#00396b] transition duration-300">
-              Read More
-            </button>
+            <Link to='/products'>
+              <button className="bg-[#004c91] text-lg xl:text-xl text-white font-semibold py-2 px-6 rounded hover:bg-[#00396b] transition duration-300">
+                Read More
+              </button>
+            </Link>
           </div>
         </div>
 

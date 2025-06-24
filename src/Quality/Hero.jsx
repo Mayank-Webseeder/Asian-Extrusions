@@ -34,18 +34,19 @@ export default function Hero() {
         <p className="text-lg md:text-2xl mb-10">We have the know-how you need.</p>
 
         {/* ↓ Scroll Down */}
-        <div className="flex flex-col items-center animate-bounce">
-          <p className="italic text-base mb-2">Scroll Down</p>
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="white"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
-          >
+        <button
+          onClick={() =>
+            document
+              .getElementById("after-hero")   // ⬅️ id of next section
+              ?.scrollIntoView({ behavior: "smooth" })
+          }
+          className="flex flex-col items-center animate-bounce focus:outline-none"
+        >
+          <span className="italic text-xl mb-2">Scroll Down</span>
+          <svg className="w-12 h-12" fill="none" stroke="white" strokeWidth="2" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
           </svg>
-        </div>
+        </button>
       </div>
     </section>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -63,15 +64,15 @@ export default function Footer() {
             <div className="w-1/4 flex gap-16">
               {/* Left Links */}
               <ul className="space-y-4 text-gray-100 text-[18px]">
-                <li><a href="#" className="hover:text-white">Home</a></li>
-                <li><a href="#" className="hover:text-white">About Us</a></li>
-                <li><a href="#" className="hover:text-white">Product</a></li>
+                <li><Link to="/" className="hover:text-white">Home</Link></li>
+                <li><Link to="/about" className="hover:text-white">About Us</Link></li>
+                <li><Link to="/products" className="hover:text-white">Product</Link></li>
               </ul>
               {/* Right Links */}
               <ul className="space-y-4 text-gray-100 text-[18px]">
-                <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white">Terms & Conditions</a></li>
-                <li><a href="#" className="hover:text-white">Contact Us</a></li>
+                <li><Link to="/privacy-policy" className="hover:text-white">Privacy Policy</Link></li>
+                <li><Link to="/terms-and-conditions" className="hover:text-white">Terms & Conditions</Link></li>
+                <li><Link to="/contact" className="hover:text-white">Contact Us</Link></li>
               </ul>
             </div>
 

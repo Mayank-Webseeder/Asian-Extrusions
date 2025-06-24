@@ -25,7 +25,7 @@ export default function Home() {
           {/* Download Button */}
           <div className="flex justify-start">
             <a
-              href="https://www.asianextrusions.com/_files/ugd/4dcc32_6e72488154a14dd394cc791d56f5562c.pdf"
+              href="/Doc/AEPL_CATALOGUE.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center bg-white text-[#05468D] px-8 py-2 rounded-2xl  font-medium text-lg hover:bg-gray-50 transition-colors duration-200 group"

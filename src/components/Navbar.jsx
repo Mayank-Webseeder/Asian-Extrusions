@@ -12,11 +12,13 @@ const Navbar = () => {
         <nav className="w-full h-[111px] bg-[#f4f7fa] flex items-center justify-between px-6 md:px-20 fixed top-0 left-0 z-50 shadow-md">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img
-              src="/Home/logo.avif"
-              alt="Logo"
-              className="h-16 md:h-20 w-auto object-contain"
-            />
+            <Link to="/">
+              <img
+                src="/Home/logo.avif"
+                alt="Logo"
+                className="h-16 md:h-20 w-auto object-contain"
+              />
+            </Link>
           </div>
 
           {/* Desktop Menu */}
@@ -33,10 +35,18 @@ const Navbar = () => {
           {/* Social Icons and Hamburger - Only on desktop */}
           <div className="hidden xl:flex items-center space-x-4">
 
-            <a href="https://www.linkedin.com/company/asianextrusions/" className="text-white bg-[#1DA1F2] p-2 rounded-full ">
+            <a
+              href="https://www.linkedin.com/company/asianextrusions/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white bg-[#1DA1F2] p-2 rounded-full ">
               <FaTwitter size={20} />
             </a>
-            <a to="https://x.com/asianextrusions" className="text-white bg-[#0077B5] p-2 rounded-full">
+            <a
+              href="https://x.com/asianextrusions"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white bg-[#0077B5] p-2 rounded-full">
               <FaLinkedinIn size={20} />
             </a>
           </div>
