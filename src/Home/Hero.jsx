@@ -19,7 +19,7 @@ function Hero() {
         className="hidden xl:block absolute top-0 left-0 w-full h-full object-cover z-0"
       >
         <source
-          src="https://video.wixstatic.com/video/4dcc32_bf77ac12fd5a41f08655514754330cef/1080p/mp4/file.mp4"
+          src="/Vedio/home.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.

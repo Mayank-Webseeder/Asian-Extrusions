@@ -51,7 +51,7 @@ const QualityManagementSystem = () => {
 
             {/* Download Button */}
             <a
-              href="https://www.asianextrusions.com/_files/ugd/4dcc32_ff0c7e4b271942d9b42dde67032a1da1.pdf"
+              href="/Doc/Alloy_Selection_Guide.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-blue-900  text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200"
@@ -91,7 +91,7 @@ const QualityManagementSystem = () => {
 
             {/* Download Button */}
             <a
-              href="https://www.asianextrusions.com/_files/ugd/4dcc32_34ac388ccb564b3c839bdbca660f6091.pdf"
+              href="/Doc/Typical_Mechanical_Properties.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-blue-900  text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200"

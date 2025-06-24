@@ -10,14 +10,14 @@ const Hero = () => {
         loop
         playsInline
         className="hidden md:block fixed w-full h-full object-cover z-[-2]"
-        src="https://video.wixstatic.com/video/4dcc32_96b0325a5e1744b6ae0db4e6fd2461c7/1080p/mp4/file.mp4"
+        src="/Vedio/about.mp4"
       ></video>
 
       {/* 🔹 Static Background Image (only for mobile) */}
       <div
         className="block md:hidden fixed w-full h-full bg-cover bg-center z-[-2]"
         style={{
-          backgroundImage: `url('https://static.wixstatic.com/media/4dcc32_96b0325a5e1744b6ae0db4e6fd2461c7f000.jpg')`,
+          backgroundImage: `url('/About/aboutHero.jpg')`,
         }}
       ></div>
 

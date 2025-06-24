@@ -22,7 +22,7 @@ export default function StaticMapWithMarker() {
         rel="noopener noreferrer"
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-full z-10"
       >
-        <img src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" />
+        <img src="/spotlight.png" alt="Custom Marker" />
 
       </a>
     </section>

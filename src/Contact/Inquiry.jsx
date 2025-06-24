@@ -14,7 +14,7 @@ export default function Inquiry() {
           playsInline
         >
           <source
-            src="https://video.wixstatic.com/video/4dcc32_90bc46eb13044ee4b07c4f211be6f69f/720p/mp4/file.mp4"
+            src="/Vedio/contact.mp4"
             type="video/mp4"
           />
         </video>
@@ -30,7 +30,7 @@ export default function Inquiry() {
           playsInline
         >
           <source
-            src="https://video.wixstatic.com/video/4dcc32_90bc46eb13044ee4b07c4f211be6f69f/720p/mp4/file.mp4"
+            src="/Vedio/contact.mp4"
             type="video/mp4"
           />
         </video>

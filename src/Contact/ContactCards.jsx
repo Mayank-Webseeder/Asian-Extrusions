@@ -11,7 +11,7 @@ export default function ContactCards() {
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="relative">
               <img
-                src="https://static.wixstatic.com/media/4dcc32_0134331853b444ecbf09431277fe2da9~mv2.jpeg/v1/crop/x_0,y_12,w_560,h_698/fill/w_372,h_464,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mohammed%20Nayeemuddin.jpeg"
+                src="/Contact/MohammedNayeemuddin.avif"
                 alt="Mohammed Nayeemuddin"
                 className="w-full h-80 object-cover"
               />
@@ -37,17 +37,15 @@ export default function ContactCards() {
               </div>
             </div>
           </div>
-
           {/* Pankaj K Mahapatra Card */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="relative">
               <img
-                src="https://static.wixstatic.com/media/4dcc32_1552ed10a48842b78a193f6d27d02b54~mv2.jpeg/v1/crop/x_0,y_164,w_1020,h_1272/fill/w_372,h_464,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/PANKAJ%20K%20MAHAPATRA.jpeg"
+                src="/Contact/PANKAJ_K_MAHAPATRA.avif"
                 alt="Pankaj K Mahapatra"
                 className="w-full h-80 object-cover"
               />
             </div>
-
             <div className="bg-blue-600 text-white p-6">
               <h2 className="text-xl font-semibold mb-1">Pankaj K Mahapatra</h2>
               <p className="text-blue-100 mb-4">General Manager</p>
