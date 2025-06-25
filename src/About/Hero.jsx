@@ -27,14 +27,14 @@ const Hero = () => {
       {/* 🟦 Content Box */}
       <div className="flex justify-end items-center h-full ">
         <div className="w-full md:w-[50%] h-full flex items-center">
-          <div className="bg-blue-900/60 w-full h-full p-6 md:p-12 md:px-40 text-white rounded-none md:rounded-lg space-y-6 flex flex-col justify-center">
-            <h2 className="text-3xl md:text-5xl text-center font-bold">About Us</h2>
+          <div className="bg-[#05468D]/70 w-full h-full p-6 py-6 md:p-12 md:pt-40 md:px-20 text-white rounded-none md:rounded-lg space-y-6 flex flex-col justify-center">
+            <h2 className="text-3xl md:text-5xl font-bold ">About Us</h2>
             <p className="text-xl leading-relaxed">
-              The company is managed by a team of highly experienced professionals. In today’s era of the highly
-              crowded business segment of aluminium extrusions, Asian Extrusions Pvt Ltd has established itself as a
-              reputed manufacturer of high-quality profiles. The company owns its customer’s trust due to its product
-              quality, preciseness in dimensions, and serviceability.
-            </p>
+              The company is managed by a team of <br />highly experienced professionals. In today’s<br /> era of the highly
+              crowded business segment<br /> of aluminium extrusions, Asian Extrusions Pvt <br />Ltd has established itself as a
+              reputed<br /> manufacturer of high-quality profiles. The <br />company owns its customer’s trust due to its <br />product
+              quality, preciseness in dimensions,<br /> and serviceability.
+            </p><br />
             <a
               href="https://www.asianextrusions.com/about"
               target="_blank"

@@ -34,9 +34,9 @@ function Hero() {
       {/* Left Content */}
       <div className="relative z-20 flex items-center justify-center xl:justify-start h-full px-6 md:px-20 w-full xl:w-[35%]">
         <div className="max-w-2xl text-white space-y-6 text-left">
-          <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold leading-tight">
+          <h1 className="text-3xl md:text-6xl  font-bold leading-tight space-y-2.5">
             Building a<br /> Brighter
-            Today<br /> And Tomorrow!
+            Today And<br /> Tomorrow!
           </h1>
           <p className="text-xl xl:text-xl font-light">
             Asian Extrusions Pvt. Ltd<br />

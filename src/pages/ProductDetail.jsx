@@ -29,18 +29,31 @@ const ProductDetail = () => {
       <Navbar />
       <div className="min-h-screen px-5 md:px-32 py-10 bg-white mt-20 ">
         {/* Back */}
-        <button className="text-blue-600 mb-6" onClick={() => navigate('/products')}>&lt; Back</button>
+        <button
+          onClick={() => navigate('/products')}
+          className="absolute top-4 left-4 lg:static lg:mb-6 text-blue-600
+             text-base md:text-lg"
+        >
+          &lt; Back
+        </button>
 
         {/* Title + Download */}
-        <div className="flex justify-between items-center mb-4">
-          <h1 className="text-4xl font-bold text-[#0a58aa]">{product.name}</h1>
+        <div className="flex justify-between items-center mb-10 mt-10  lg:mt-0">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#0a58aa]">
+            {product.name}
+          </h1>
+
           {product.link && (
             <a
               href={product.link}
               target="_blank"
               rel="noopener noreferrer"
+              className="flex-shrink-0"
             >
-              <FaDownload size={28} className="text-[#0a58aa] hover:text-blue-800" />
+              <FaDownload
+                className="text-[#0a58aa] hover:text-blue-800
+                   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8"
+              />
             </a>
           )}
         </div>
@@ -65,24 +78,38 @@ const ProductDetail = () => {
             industry.
           </p>
         </div>
-        {/* {console.log(product.imageSrc)} */}
-        {/* Image */}
-        <div className="flex flex-wrap justify-center gap-4 mb-6">
-          {product.imageSrc.map((src, i) => (
-            <img
-              key={i}
-              src={src}
-              alt={`${product.imageAlt} ${i + 1}`}
-              className="w-[300px] h-[220px] object-cover rounded"
-            />
-          ))}
+        {/* Image Section */}
+        <div className="mb-6">
+          {/* ✅ Desktop View */}
+          <div className="hidden lg:flex justify-start gap-6 flex-wrap">
+            {product.imageSrc.map((src, i) => (
+              <img
+                key={i}
+                src={src}
+                alt={`${product.imageAlt} ${i + 1}`}
+                className="w-[400px] h-[300px] object-cover "
+              />
+            ))}
+          </div>
+
+          {/* ✅ Mobile to Laptop View - Slider */}
+          <div className="flex lg:hidden overflow-x-auto gap-4">
+            {product.imageSrc.map((src, i) => (
+              <img
+                key={i}
+                src={src}
+                alt={`${product.imageAlt} ${i + 1}`}
+                className="min-w-[90%] h-[220px] object-cover "
+              />
+            ))}
+          </div>
         </div>
 
-        {/* Prev/Next + Download Button */}
-        <div className="mt-10 flex justify-between">
+        {/* Prev / Next / Download */}
+        <div className="mt-10 flex flex-wrap justify-between items-center gap-4">
           <button
             onClick={() => goTo(-1)}
-            className="px-4 py-2 text-blue-600 text-xl disabled:opacity-50"
+            className="px-4 py-2 text-blue-600 text-base md:text-lg disabled:opacity-50"
             disabled={productIndex === 0}
           >
             Previous
@@ -92,19 +119,20 @@ const ProductDetail = () => {
             href={product.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-12 py-2 bg-[#0A4C91] text-white rounded inline-block"
+            className="px-6 py-2 bg-[#0A4C91] text-white rounded text-base md:text-lg"
           >
             Download
           </a>
 
           <button
             onClick={() => goTo(1)}
-            className="px-4 py-2 text-blue-600 text-xl disabled:opacity-50"
+            className="px-4 py-2 text-blue-600 text-base md:text-lg disabled:opacity-50"
             disabled={productIndex === products.length - 1}
           >
             Next
           </button>
         </div>
+
 
       </div>
       <Footer />

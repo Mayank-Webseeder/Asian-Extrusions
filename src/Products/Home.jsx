@@ -6,14 +6,14 @@ export default function Home() {
     <section className="bg-[#05468D] py-24 px-6 min-h-screen flex items-center justify-center">
       <div className="max-w-6xl mx-auto text-center">
         {/* Main Products Heading */}
-        <h1 className="text-white text-5xl md:text-6xl font-light mb-16 tracking-wide">
+        <h1 className="text-white text-5xl md:text-6xl font-light mb-16 tracking-wide mt-15 md:mt-0">
           Products
         </h1>
 
         {/* Content Container */}
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           {/* Complete Product Catalogue Heading */}
-          <h2 className="text-white text-3xl md:text-4xl font-light mb-8">
+          <h2 className="text-white text-3xl md:text-4xl font-light mb-8 text-left">
             Complete Product Catalogue
           </h2>
 
