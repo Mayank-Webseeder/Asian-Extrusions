@@ -374,7 +374,7 @@ export default function PrivacyPolicy() {
             </div>
 
             <div className="space-y-4">
-              <h4 className="text-lg font-medium text-gray-900">Law enforcement</h4>
+              <h4 className="text-lg font-medium text-[#05468D]">Law enforcement</h4>
               <p className="text-base text-[#05468D]">
                 Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law
                 or in response to valid requests by public authorities (e.g. a court or a government agency).
