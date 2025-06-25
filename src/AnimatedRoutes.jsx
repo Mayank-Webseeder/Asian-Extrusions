@@ -46,7 +46,7 @@ export default function AnimatedRoutes() {
         <Route
           path="/products"
           element={
-            <PageWrapper title="Products | Asian Extrusions">
+            <PageWrapper title="Products ">
               <Product />
             </PageWrapper>
           }

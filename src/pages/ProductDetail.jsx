@@ -3,6 +3,9 @@ import { useParams, useNavigate } from 'react-router-dom'
 import products from '../Products/Data.js'
 import { FaDownload } from 'react-icons/fa'
 import Navbar from '../components/Navbar'
+import ScrollToTopButton from '../components/ScrollToTopButton';
+import MobileBottomNav from '../components/MobileBottomNav';
+import Footer from '../components/Footer';
 
 const ProductDetail = () => {
   const { slug } = useParams()
@@ -62,14 +65,17 @@ const ProductDetail = () => {
             industry.
           </p>
         </div>
-        {console.log(product.imageSrc)}
+        {/* {console.log(product.imageSrc)} */}
         {/* Image */}
-        <div className="flex justify-center mb-6">
-          <img
-            src={product.imageSrc}
-            alt={product.imageAlt}
-            className="w-[300px] h-[220px] object-cover rounded shadow-md"
-          />
+        <div className="flex flex-wrap justify-center gap-4 mb-6">
+          {product.imageSrc.map((src, i) => (
+            <img
+              key={i}
+              src={src}
+              alt={`${product.imageAlt} ${i + 1}`}
+              className="w-[300px] h-[220px] object-cover rounded"
+            />
+          ))}
         </div>
 
         {/* Prev/Next + Download Button */}
@@ -101,6 +107,9 @@ const ProductDetail = () => {
         </div>
 
       </div>
+      <Footer />
+      <MobileBottomNav />
+      <ScrollToTopButton />
     </>
   )
 }

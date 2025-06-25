@@ -14,7 +14,7 @@ function Products() {
             >
               <div className="flex-shrink-0 w-full h-40 flex items-center justify-center p-4">
                 <img
-                  src={product.imageSrc}
+                  src={product.imageSrc[0]}
                   alt={product.imageAlt}
                   className="w-full h-full object-cover rounded-md"
                   onError={(e) => {

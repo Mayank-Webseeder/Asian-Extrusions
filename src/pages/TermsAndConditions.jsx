@@ -30,13 +30,13 @@ export default function TermsAndConditions() {
             <p className="text-base mb-4" style={{ color: '#05468D' }}>
               These terms and conditions outline the rules and regulations for the use of Asian Extrusions's Website, located at{' '}
               <a
-                href="https://www.asianextrusions.com/"
+                href={`${import.meta.env.VITE_PUBLIC_URL}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:no-underline"
                 style={{ color: '#05468D' }}
               >
-                https://www.asianextrusions.com/.
+                {`${import.meta.env.VITE_PUBLIC_URL}`}
               </a>
             </p>
 
