@@ -1,11 +1,23 @@
 import React, { useState, useEffect } from 'react'
 import { FaBars, FaTimes, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import { motion, AnimatePresence } from 'framer-motion'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   const [showNavbar, setShowNavbar] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
+
+  /* animation duration added */
+  const sheet = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 2,
+      transition: { duration: 0.8, ease: 'easeOut', staggerChildren: 0.06 },
+    },
+    exit: { opacity: 0, transition: { duration: 0.4, ease: 'easeIn' } },
+  }
+
 
   /* ── kitna px scroll hone par state badlegi ── */
   const SCROLL_THRESHOLD = 12
@@ -22,7 +34,6 @@ const Navbar = () => {
       else if (lastScrollY - current > SCROLL_THRESHOLD) {
         setShowNavbar(true)
       }
-
       setLastScrollY(current)
     }
 
@@ -92,34 +103,49 @@ const Navbar = () => {
 
       {/* ───────────────── Mobile Menu ───────────────── */}
       {menuOpen && (
-        <div className="fixed inset-0 z-50 flex flex-col items-center justify-center
+        <AnimatePresence mode="wait">
+          {menuOpen && (
+            <motion.div
+              key="mobile-menu"
+              variants={sheet}
+              initial="hidden"
+              animate="visible"
+              exit="exit"
+              className="fixed inset-0 z-50 flex flex-col items-center justify-center
+                             space-y-10 bg-[#005298]text-white text-xl font-semibold">
+              <div className="fixed inset-0 z-50 flex flex-col items-center justify-center
                         space-y-10 bg-[#005298] text-white text-xl font-semibold">
-          <button
-            onClick={() => setMenuOpen(false)}
-            className="absolute top-6 right-6"
-          >
-            <FaTimes size={28} />
-          </button>
+                <button
+                  onClick={() => setMenuOpen(false)}
+                  className="absolute top-6 right-6"
+                >
+                  <FaTimes size={28} />
+                </button>
 
-          {[
-            ['/', 'Home'],
-            ['/about', 'About'],
-            ['/quality', 'Quality'],
-            ['/products', 'Products'],
-            ['/contact', 'Contact'],
-            ['/privacy-policy', 'Privacy Policy'],
-            ['/terms-and-conditions', 'Terms'],
-          ].map(([path, label]) => (
-            <Link
-              key={path}
-              to={path}
-              onClick={() => setMenuOpen(false)}
-              className="hover:text-blue-300"
-            >
-              {label}
-            </Link>
-          ))}
-        </div>
+                {[
+                  ['/', 'Home'],
+                  ['/about', 'About'],
+                  ['/quality', 'Quality'],
+                  ['/products', 'Products'],
+                  ['/contact', 'Contact'],
+                  ['/privacy-policy', 'Privacy Policy'],
+                  ['/terms-and-conditions', 'Terms'],
+                ].map(([path, label]) => (
+                  <Link
+                    key={path}
+                    to={path}
+                    onClick={() => setMenuOpen(false)}
+                    className="hover:text-blue-300"
+                  >
+                    {label}
+                  </Link>
+
+                ))}
+
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       )}
     </>
   )
