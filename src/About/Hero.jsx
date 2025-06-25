@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[820px] overflow-hidden">
+    <div className="relative w-full h-[820px] overflow-hidden mt-25 lg:mt-0">
       {/* 🔹 Background Video (only for desktop) */}
       <video
         autoPlay

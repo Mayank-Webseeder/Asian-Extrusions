@@ -3,7 +3,7 @@ import React from "react";
 
 const MissionVision = () => {
   return (
-    <section className="w-full flex flex-col md:flex-row">
+    <section className="w-full flex flex-col md:flex-row ">
       {/* Left: Mission */}
       <div className="relative w-full md:w-1/2 text-white">
         {/* Background image */}
@@ -21,7 +21,6 @@ const MissionVision = () => {
           </p>
         </div>
       </div>
-
       {/* Right: Vision */}
       <div className="relative w-full md:w-1/2 text-blue-900">
         {/* Background image */}
